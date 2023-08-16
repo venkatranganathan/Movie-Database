@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22138.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22113"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,15 +14,48 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchposter" translatesAutoresizingMaskIntoConstraints="NO" id="86C-dp-vD2">
+                                <rect key="frame" x="0.0" y="0.0" width="428.33333333333331" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Movie Database" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMM-WU-NQ1">
+                                <rect key="frame" x="41" y="378" width="306.33333333333331" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="184" id="0UG-oo-7QR"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="1yy-vt-PEd"/>
+                                    <constraint firstAttribute="width" constant="310.33333333333331" id="39t-Il-AiW"/>
+                                    <constraint firstAttribute="height" constant="96" id="9mp-m0-XFj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="86C-dp-vD2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="C2T-Iy-BZc"/>
+                            <constraint firstItem="86C-dp-vD2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C4z-Rq-bVe"/>
+                            <constraint firstItem="LMM-WU-NQ1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="FmD-Bj-hK4"/>
+                            <constraint firstItem="LMM-WU-NQ1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Z8a-53-zXX"/>
+                            <constraint firstItem="86C-dp-vD2" firstAttribute="centerY" secondItem="LMM-WU-NQ1" secondAttribute="centerY" id="csO-BU-vs1"/>
+                            <constraint firstItem="86C-dp-vD2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-59" id="d0Q-Vm-DV6"/>
+                            <constraint firstItem="LMM-WU-NQ1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="319" id="uGG-f8-lgj"/>
+                            <constraint firstItem="86C-dp-vD2" firstAttribute="centerX" secondItem="LMM-WU-NQ1" secondAttribute="centerX" constant="20" id="zvP-7q-me4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launchposter" width="116.66666412353516" height="155.66667175292969"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
