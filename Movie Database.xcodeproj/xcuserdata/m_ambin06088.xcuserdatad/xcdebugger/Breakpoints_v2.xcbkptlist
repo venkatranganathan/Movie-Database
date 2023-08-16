@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A064D4F3-0071-41DE-A018-46EA4AB7B313"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "823D55F4-3D07-4938-9DBF-F79E99304568"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movie Database/Controller/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "BaseViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "823D55F4-3D07-4938-9DBF-F79E99304568 - 34b9aef3ff610f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Movie_Database.BaseViewController.didLoadItems(_: Movie_Database.MovieManager, movies: Swift.Array&lt;Movie_Database.MovieData&gt;) -&gt; ()"
+                  moduleName = "Movie Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m_ambin06088/Documents/GitHub/Movie%20Database/Movie%20Database/Controller/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "823D55F4-3D07-4938-9DBF-F79E99304568 - 34b9aef3ff6171bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Movie_Database.BaseViewController.didLoadItems(_: Movie_Database.MovieManager, movies: Swift.Array&lt;Movie_Database.MovieData&gt;) -&gt; ()"
+                  moduleName = "Movie Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m_ambin06088/Documents/GitHub/Movie%20Database/Movie%20Database/Controller/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F6B023D-BE89-44D4-9C47-984D45D12C2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movie Database/Model/MovieManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "loadItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "388D2C91-C935-4F35-87A3-EAA213214D01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movie Database/Model/MovieManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "parseJSON(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "388D2C91-C935-4F35-87A3-EAA213214D01 - c904c1c34e2e5cab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Movie_Database.MovieManager.parseJSON(Foundation.Data) -&gt; Swift.Optional&lt;Swift.Array&lt;Movie_Database.MovieData&gt;&gt;"
+                  moduleName = "Movie Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m_ambin06088/Documents/GitHub/Movie%20Database/Movie%20Database/Model/MovieManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "388D2C91-C935-4F35-87A3-EAA213214D01 - c904c1c34e2e5ce9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Movie_Database.MovieManager.parseJSON(Foundation.Data) -&gt; Swift.Optional&lt;Swift.Array&lt;Movie_Database.MovieData&gt;&gt;"
+                  moduleName = "Movie Database"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m_ambin06088/Documents/GitHub/Movie%20Database/Movie%20Database/Model/MovieManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01CD96E6-F737-4707-97DB-B8DB12F216B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movie Database/Model/MovieManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "isYearRange(_:year:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
