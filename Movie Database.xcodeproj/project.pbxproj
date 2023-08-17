@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D8154A7A2A8D094B003DEF1E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8154A782A8D094B003DEF1E /* MovieCell.swift */; };
 		D8154A7B2A8D094B003DEF1E /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8154A792A8D094B003DEF1E /* MovieCell.xib */; };
+		D8154A7D2A8DECC0003DEF1E /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8154A7C2A8DECC0003DEF1E /* ProgressCircle.swift */; };
 		D85487F52A8CD2ED00AD392A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85487F42A8CD2ED00AD392A /* AppDelegate.swift */; };
 		D85487F72A8CD2ED00AD392A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85487F62A8CD2ED00AD392A /* SceneDelegate.swift */; };
 		D85487F92A8CD2ED00AD392A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85487F82A8CD2ED00AD392A /* BaseViewController.swift */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		D8154A782A8D094B003DEF1E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		D8154A792A8D094B003DEF1E /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		D8154A7C2A8DECC0003DEF1E /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
 		D85487F12A8CD2ED00AD392A /* Movie Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85487F42A8CD2ED00AD392A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D85487F62A8CD2ED00AD392A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				D85487FA2A8CD2ED00AD392A /* Main.storyboard */,
 				D8154A782A8D094B003DEF1E /* MovieCell.swift */,
 				D8154A792A8D094B003DEF1E /* MovieCell.xib */,
+				D8154A7C2A8DECC0003DEF1E /* ProgressCircle.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				D854882F2A8CED6C00AD392A /* MovieManager.swift in Sources */,
 				D854882C2A8CE98F00AD392A /* MovieData.swift in Sources */,
 				D85487F52A8CD2ED00AD392A /* AppDelegate.swift in Sources */,
+				D8154A7D2A8DECC0003DEF1E /* ProgressCircle.swift in Sources */,
 				D85487F72A8CD2ED00AD392A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

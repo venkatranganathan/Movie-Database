@@ -34,7 +34,7 @@ struct MovieManager {
         let decoder = JSONDecoder()
         do {
             var decodedData = try decoder.decode([MovieData].self, from: movieData)
-            // If we need to filter our series
+            // If we need to filter out series, please uncomment
 //            decodedData = decodedData.filter({$0.Type == "movie"})
             return decodedData
             

@@ -30,6 +30,13 @@ class BaseViewController: UIViewController {
     }
     
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "moveToDetail"){
+            guard let movieDetailVC = segue.destination as? MovieDetailViewController else { return }
+            movieDetailVC.movieItem = movieItems[(sender as! NSIndexPath).row]
+        }
+    }
+    
 }
 
 extension BaseViewController: UISearchBarDelegate {
@@ -44,7 +51,6 @@ extension BaseViewController: UISearchBarDelegate {
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        print("searchText \(searchBar.text)")
         searchBar.resignFirstResponder()
         movieSearch.text = searchBar.text?.trimmingCharacters(in: .whitespaces)
         tableMovieItems =  movieManager.searchItems(movieSearch?.text ?? "", movies: movieItems) ?? movieItems
@@ -139,7 +145,8 @@ extension BaseViewController: UITableViewDataSource, UITableViewDelegate {
             }
         }
         else{
-            
+            // Go to detail view
+            self.performSegue(withIdentifier: "moveToDetail", sender: indexPath);
         }
     }
     
